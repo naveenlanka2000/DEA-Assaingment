@@ -1,7 +1,7 @@
 # DEA-Assaingment
 
 Project Members
-| NAME          | Student ID    | Degree        | GutHub Username |
+| Name          | Student ID    | Degree        | GutHub Username |
 | ------------- | ------------- | ------------- | -------------   |
 |               |               |               |                 |
 |               |               |               |                 |
