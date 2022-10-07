@@ -26,4 +26,4 @@ Only the admin can access the admin dashboard.
 Staff members can access staff dashboard.
 Client dashboard can be accessed by both users and the staff members.
 
-![LANDING PAGE](https://myoctocat.com/assets/images/base-octocat.svg)
+![LANDING PAGE](https://ibb.co/TrHzxyx)
