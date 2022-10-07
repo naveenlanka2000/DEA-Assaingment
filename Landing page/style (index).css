@@ -1,0 +1,304 @@
+/*
+
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+*/
+
+
+/* Body 
+------------------------------------- */
+body {
+    background: #ffffff;   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+
+h1,h2,h3,h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+h2 {
+  color: #e44c65;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+p {
+  color: #888;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
+
+#home p,
+#contact p, footer p {
+  color: #e8f810;
+}
+
+.btn {
+  border:none;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:focus {
+  background: #4cd0e4;
+  border-color: transparent;
+}
+
+.btn-success {
+  background: #4cbee4;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  margin: 26px 10px;
+}
+
+.btn-success:hover {
+  background: #222;
+}
+
+a {
+  color: #4ccbe4;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+a:hover, a:active, a:focus {
+  color: #4ce4e1;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/*---------------------------------------
+    All Section style              
+-----------------------------------------*/
+
+.section-title {
+  padding-bottom: 62px;
+}
+
+#about .section-title {
+  padding-top: 82px;
+}
+
+#about .section-title h1 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#about,
+#gallery,
+#contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+#gallery,
+#contact, footer {
+  text-align: center;
+}
+
+.overlay {
+  background: #0f171d;
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+/*---------------------------------------
+    Pre Loader Style              
+-----------------------------------------*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #e44c65;
+  border-radius: 100%;
+  margin: 40px auto;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+
+
+/*---------------------------------------
+    Home Section              
+-----------------------------------------*/
+
+#home {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+        align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#home h1 {
+  color: #ffffff;
+}
+
+#home .col-md-8 {
+  padding-left: 62px;
+}
+
+
+
+
+/*---------------------------------------
+   Responsive Mobile         
+-----------------------------------------*/
+
+@media (max-width: 980px) {
+/* 
+  #home, .overlay {
+    height: 50vh;
+  }
+*/
+  #about .team-thumb {
+    margin-top: 32px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  #home, .overlay {
+    height: 100vh;
+  }
+
+  #about .about-thumb {
+    padding: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  #about .col-md-3 img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+}
+
+
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #about,
+  #gallery,
+  #contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+}
+
+
+
+
