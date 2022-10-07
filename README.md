@@ -26,4 +26,4 @@ Only the admin can access the admin dashboard.
 Staff members can access staff dashboard.
 Client dashboard can be accessed by both users and the staff members.
 
-![LANDING PAGE](https://i.ibb.co/hCKpJ0J/Screenshot-43.png)
+![LANDING PAGE](https://i.ibb.co/4swgh56/Screenshot-44.png)
