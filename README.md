@@ -11,7 +11,7 @@ Project Members
 
 This project is a web site designed and developed to manage an airline service processes in the Phoenix Airline PVT. The main target is to convert the manual processors such as user management, flight management and ticket management into an automated environment. There are four main user types on this website. Admin, Grade1 Staff, Grade2 Staff and client. In this web site clients can reserve their seat and check their reservations. Also, they can update their profiles and reservations. Grade one staff members are responsible for adding, updating, and deleting flights, checking, and updating or deleting ticket information, checking user accounts, updating, or blocking accounts. Grade two staff members can view information and add flights. Admin is responsible for adding staff members into the system, approving members. This web site use java enterprise edition and glass fish server as the main server to handle the java server pages and MVC architecture is used as the design pattern.
 
-Project Requirements
+**Project Requirements**
 
 User registration and authentication - All the users can create an account here.
 Admin can add staff members and approve staff accounts.
