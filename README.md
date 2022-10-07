@@ -8,3 +8,5 @@ Project Members
 |               |               |               |                 |
 |               |               |               |                 |
 |               |               |               |                 |
+
+Description of Project
